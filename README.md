@@ -73,3 +73,41 @@ int main() {
     fout << "Longest common streak: " << longest << endl;
     return 0;
 }
+``` 
+# Cow Frequencies 🐄
+
+## 🚀 Description
+A C++ simulation that tracks how many cows like each grass patch, labels them as "common" or "unique", identifies the most popular patches, and finds the longest contiguous streak of common grass.  
+Built for USACO Bronze prep, but honestly it just turned into a data science project for cows.
+
+## 🧠 What I Learned
+- How to use `map` and `vector` to track and analyze frequency data
+- How to write structured output and debug logic bugs like a 2000s detective
+- What a “common streak” looks like in the wild
+- That syntax highlighting in Markdown is a lie unless you close your backticks
+
+## 💻 Tech Stack
+C++, STL (map, vector, string), file I/O, raw stubborn willpower
+
+## 🔗 Live Demo / Screenshots
+Not live. It’s C++. You compile it.  
+But here’s a beautiful output sample:
+
+5 - common
+3 - common
+5 - common
+...
+Most liked patch(es): 5 3 2
+Longest common streak: 3
+
+bash
+Copy
+Edit
+
+## 📂 How to Run It
+```bash
+git clone https://github.com/your-username/cow-frequencies
+cd cow-frequencies
+g++ -std=c++17 cowfreq.cpp -o cowfreq
+./cowfreq
+Make sure cowfreq.in exists in the same folder. Output goes to cowfreq.out, because that's how cows roll.
